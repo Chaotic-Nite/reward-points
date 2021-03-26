@@ -26,7 +26,7 @@ function App() {
       setValue(filterdData)
     }
   };
-
+  
   return (
     <div className="App">
         <input
@@ -39,7 +39,7 @@ function App() {
       />
       <div className="App-header">
         <Card style={{ width: '25rem' }} bg='primary' >
-        <Card.Header>{state.account ? `Rewards Account: ${state.account}` : 'No Rewards Found' }</Card.Header>
+        <Card.Header>{state ? `Rewards Account: ${state}` : 'No Rewards Found' }</Card.Header>
           <Card.Body>
             {value.length > 0 ? <RewardBonus data={value} /> : null}
           </Card.Body>
