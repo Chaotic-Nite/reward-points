@@ -1,10 +1,11 @@
+import RewardItem from "../reward-item/RewardItem";
+
 const RewardBonus = (props) => {
   const receipts = props.data;
-  console.log(receipts);
+  const state = receipts[receipts.length - 1]
   return (
     <>
-      {" "}
-      <div>Hi</div>{" "}
+      <RewardItem account={state.rewardAccount}  total={state.total} oldBonus={state.rewardAmount} />
     </>
   );
 };

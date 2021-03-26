@@ -1,12 +1,12 @@
 const { uuid } = require("uuidv4");
-//const jsonfile = require("jsonfile");
+const jsonfile = require("jsonfile");
 
-//Removed File directory
+const file = process.cwd() + '/src/test-receipts/data.json'
 const receiptList = receiptGen(20);
 
-// jsonfile.writeFile(file, receiptList, function (err) {
-//   if (err) console.error(err);
-// });
+jsonfile.writeFile(file, receiptList, function (err) {
+  if (err) console.error(err);
+});
 
 // Function for generator
 function receiptGen(amountOfReceipts) {
@@ -20,16 +20,16 @@ function receiptGen(amountOfReceipts) {
       total: "$",
     };
     newObj._id = uuid().split("-").join("");
-    newObj.rewardAccount = Math.floor(Math.random() * (9 - 0 + 1) + 0);
-    const rewardAmount = Math.floor(Math.random() * (25 - 1 + 1) + 0);
+    newObj.rewardAccount =( Math.floor(Math.random() * (9 - 0 + 1) + 0)).toString()
+    const rewardAmount = Math.floor(Math.random() * (25 - 1 + 1) + 0)
     const matchAccnts = receiptArrObj.filter(
       (item) => item.rewardAccount === newObj.rewardAccount
     );
     if (matchAccnts.length > 0) {
       newObj.rewardAmount =
-        matchAccnts[matchAccnts.length - 1].rewardAmount + rewardAmount;
+        (matchAccnts[matchAccnts.length - 1].rewardAmount + rewardAmount).toString();
     } else {
-      newObj.rewardAmount = rewardAmount;
+      newObj.rewardAmount = (rewardAmount).toString();
     }
     const subTotal = Math.floor(Math.random() * (150 - 35 + 1) + 0);
     newObj.subtotal += subTotal.toFixed(2);
