@@ -1,142 +1,162 @@
 [
   {
-    "_id": "7057ebede8b34fd89153e82d491a913d",
-    "rewardAccount": "8",
-    "rewardAmount": "58",
-    "subtotal": "$96.00",
-    "total": "$104.64"
-  },
-  {
-    "_id": "71f79c14a89944b6b9f80ca34b069446",
-    "rewardAccount": "2",
-    "rewardAmount": "33",
+    "_id": "95738a23a5ec43c4835fed86392c3af5",
+    "rewardAccount": 4,
+    "rewardAmount": 14,
+    "date": "03/06/2020",
     "subtotal": "$77.00",
     "total": "$83.93"
   },
   {
-    "_id": "16394ce8209b4b1d99a2ca3e7ef31fbd",
-    "rewardAccount": "8",
-    "rewardAmount": "58",
-    "subtotal": "$29.00",
-    "total": "$31.61"
+    "_id": "d427470877e6489f87cd5c6be103e126",
+    "rewardAccount": 9,
+    "rewardAmount": 23,
+    "date": "03/06/2020",
+    "subtotal": "$76.00",
+    "total": "$82.84"
   },
   {
-    "_id": "1193b85ff5774136b185e7ba5ebb29e2",
-    "rewardAccount": "5",
-    "rewardAmount": "0",
-    "subtotal": "$23.00",
-    "total": "$25.07"
+    "_id": "439b374133fb4e7fa3f606bf5c7e850a",
+    "rewardAccount": 6,
+    "rewardAmount": 0,
+    "date": "03/06/2020",
+    "subtotal": "$101.00",
+    "total": "$110.09"
   },
   {
-    "_id": "db3088c59a554dd19b95018677afe4c0",
-    "rewardAccount": "1",
-    "rewardAmount": "0",
-    "subtotal": "$15.00",
-    "total": "$16.35"
-  },
-  {
-    "_id": "c0b96446457b4447bd2a50004f41a74f",
-    "rewardAccount": "8",
-    "rewardAmount": "58",
-    "subtotal": "$12.00",
-    "total": "$13.08"
-  },
-  {
-    "_id": "f0c098746e8d433a918fb931d9694226",
-    "rewardAccount": "9",
-    "rewardAmount": "33",
-    "subtotal": "$77.00",
-    "total": "$83.93"
-  },
-  {
-    "_id": "2f356cc90a1a40eeb04ed134aa063b50",
-    "rewardAccount": "4",
-    "rewardAmount": "0",
-    "subtotal": "$9.00",
-    "total": "$9.81"
-  },
-  {
-    "_id": "b46faa0a8ae8477e8bbf7fe34846d902",
-    "rewardAccount": "2",
-    "rewardAmount": "33",
-    "subtotal": "$44.00",
-    "total": "$47.96"
-  },
-  {
-    "_id": "ea0bc3f2f1884d22ae94edee127afdbc",
-    "rewardAccount": "8",
-    "rewardAmount": "118",
-    "subtotal": "$97.00",
-    "total": "$105.73"
-  },
-  {
-    "_id": "da6632232ac54fe8ba04c96292936cfa",
-    "rewardAccount": "5",
-    "rewardAmount": "0",
-    "subtotal": "$44.00",
-    "total": "$47.96"
-  },
-  {
-    "_id": "0eea7fe962034839a5bef9b66d2eb593",
-    "rewardAccount": "3",
-    "rewardAmount": "45",
-    "subtotal": "$88.00",
-    "total": "$95.92"
-  },
-  {
-    "_id": "d4f3ae871c804181a5a6e02a4b08bca1",
-    "rewardAccount": "2",
-    "rewardAmount": "33",
-    "subtotal": "$31.00",
-    "total": "$33.79"
-  },
-  {
-    "_id": "dd9497b2d1824c9f8dc8e6d84343e186",
-    "rewardAccount": "5",
-    "rewardAmount": "0",
-    "subtotal": "$12.00",
-    "total": "$13.08"
-  },
-  {
-    "_id": "f448d56b59fa409b9ba76fffe658d11e",
-    "rewardAccount": "9",
-    "rewardAmount": "33",
-    "subtotal": "$4.00",
-    "total": "$4.36"
-  },
-  {
-    "_id": "836f275a2aae4f2f99ec821aeaf944e8",
-    "rewardAccount": "6",
-    "rewardAmount": "12",
-    "subtotal": "$57.00",
-    "total": "$62.13"
-  },
-  {
-    "_id": "dac3f63505d841d1a4063ca39b8d0216",
-    "rewardAccount": "5",
-    "rewardAmount": "9",
-    "subtotal": "$55.00",
-    "total": "$59.95"
-  },
-  {
-    "_id": "76c9bfb5807c429f8cd68193e9882a59",
-    "rewardAccount": "9",
-    "rewardAmount": "129",
-    "subtotal": "$113.00",
-    "total": "$123.17"
-  },
-  {
-    "_id": "384bf63824534db792fefbc58aed9c2a",
-    "rewardAccount": "3",
-    "rewardAmount": "50",
+    "_id": "47d22fb7fdab4e9c90c5c093b73af448",
+    "rewardAccount": 3,
+    "rewardAmount": 19,
+    "date": "03/06/2020",
     "subtotal": "$51.00",
     "total": "$55.59"
   },
   {
-    "_id": "7fb4d3744eba454c93753d050ef3685c",
-    "rewardAccount": "9",
-    "rewardAmount": "183",
-    "subtotal": "$94.00",
-    "total": "$102.46"
+    "_id": "b1a49504a7e84c499db79ca23664904b",
+    "rewardAccount": 3,
+    "rewardAmount": 34,
+    "date": "03/06/2020",
+    "subtotal": "$24.00",
+    "total": "$26.16"
+  },
+  {
+    "_id": "5dc67ea4927e4b3eaff7c9571884c1e5",
+    "rewardAccount": 5,
+    "rewardAmount": 4,
+    "date": "03/06/2020",
+    "subtotal": "$104.00",
+    "total": "$113.36"
+  },
+  {
+    "_id": "65aa860c8b46468f8a129e96d1d90f38",
+    "rewardAccount": 0,
+    "rewardAmount": 17,
+    "date": "04/06/2020",
+    "subtotal": "$59.00",
+    "total": "$64.31"
+  },
+  {
+    "_id": "03c4ef48b8444645ab0980e916763d35",
+    "rewardAccount": 0,
+    "rewardAmount": 29,
+    "date": "04/06/2020",
+    "subtotal": "$0.00",
+    "total": "$0.00"
+  },
+  {
+    "_id": "f4e3edd674c74003924806b336d4b15e",
+    "rewardAccount": 2,
+    "rewardAmount": 1,
+    "date": "05/06/2020",
+    "subtotal": "$63.00",
+    "total": "$68.67"
+  },
+  {
+    "_id": "4b9c65b5dc96477d9e0e18cf4220f10c",
+    "rewardAccount": 6,
+    "rewardAmount": 16,
+    "date": "05/06/2020",
+    "subtotal": "$67.00",
+    "total": "$73.03"
+  },
+  {
+    "_id": "5bca36ff96744e9b93d1347094b710b4",
+    "rewardAccount": 4,
+    "rewardAmount": 23,
+    "date": "05/06/2020",
+    "subtotal": "$9.00",
+    "total": "$9.81"
+  },
+  {
+    "_id": "538be320130347458275504778c2786d",
+    "rewardAccount": 9,
+    "rewardAmount": 38,
+    "date": "05/06/2020",
+    "subtotal": "$44.00",
+    "total": "$47.96"
+  },
+  {
+    "_id": "7d4178c9aff7449b8395808a19abbf7c",
+    "rewardAccount": 4,
+    "rewardAmount": 37,
+    "date": "05/06/2020",
+    "subtotal": "$11.00",
+    "total": "$11.99"
+  },
+  {
+    "_id": "66a2109633684d66a0448e29a821d19e",
+    "rewardAccount": 2,
+    "rewardAmount": 9,
+    "date": "06/06/2020",
+    "subtotal": "$16.00",
+    "total": "$17.44"
+  },
+  {
+    "_id": "462078f104a74b69afb3d44a1449b7ed",
+    "rewardAccount": 5,
+    "rewardAmount": 7,
+    "date": "06/06/2020",
+    "subtotal": "$10.00",
+    "total": "$10.90"
+  },
+  {
+    "_id": "8814236a32254820afef3009576518c3",
+    "rewardAccount": 0,
+    "rewardAmount": 51,
+    "date": "06/06/2020",
+    "subtotal": "$3.00",
+    "total": "$3.27"
+  },
+  {
+    "_id": "9cdb8300f51b4c4bb29da5ce1cae8674",
+    "rewardAccount": 3,
+    "rewardAmount": 53,
+    "date": "06/06/2020",
+    "subtotal": "$44.00",
+    "total": "$47.96"
+  },
+  {
+    "_id": "c8b5ad521fb64aa99b43e09140968fb5",
+    "rewardAccount": 9,
+    "rewardAmount": 49,
+    "date": "06/06/2020",
+    "subtotal": "$100.00",
+    "total": "$109.00"
+  },
+  {
+    "_id": "1ffe0211bf6b47c38b353bd1727d5a0f",
+    "rewardAccount": 2,
+    "rewardAmount": 25,
+    "date": "06/06/2020",
+    "subtotal": "$21.00",
+    "total": "$22.89"
+  },
+  {
+    "_id": "57ff7726b4f84e848433d8e7071b5fc8",
+    "rewardAccount": 7,
+    "rewardAmount": 3,
+    "date": "06/06/2020",
+    "subtotal": "$106.00",
+    "total": "$115.54"
   }
 ]
