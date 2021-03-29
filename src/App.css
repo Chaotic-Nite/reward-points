@@ -16,3 +16,18 @@
 .card-subtitle {
   color: rgb(226, 226, 226);
 }
+
+.card {
+  margin-bottom: 5%;
+}
+
+.prev-months {
+  border: 1px solid white;
+  height: 5%;
+  width: 70%;
+  font-size: 1rem;
+}
+
+.prev-months h1 {
+  font-size: 1.5rem;
+}

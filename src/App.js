@@ -9,7 +9,7 @@ function App() {
   const [state, setState] = useState("");
   const [value, setValue] = useState([]);
   const [input, setInput] = useState("");
-  const data = require("./test-receipts/receipts.json");
+  const data = require("./test-receipts/data.json");
   const CURRENT_MONTH = 6;
 
   const searchAccounts = (event) => {
@@ -17,7 +17,7 @@ function App() {
       const inputValue = input;
       setInput("");
       const filterdData = data.filter(
-        (item) => item.rewardAccount === inputValue
+        (item) => item.rewardAccount == inputValue
       );
       console.log(filterdData);
       if (filterdData.length === 0) {
@@ -48,9 +48,14 @@ function App() {
             {value.length > 0 ? <RewardBonus data={value} /> : null}
           </Card.Body>
         </Card>
+        {value.length > 0 ? (
+          <MonthlyCheck
+            data={value}
+            account={state}
+            currentMonth={CURRENT_MONTH}
+          />
+        ) : null}
       </div>
-      />
-      <MonthlyCheck data={data} currentMonth={CURRENT_MONTH} />
     </div>
   );
 }
